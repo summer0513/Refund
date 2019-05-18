@@ -1,0 +1,192 @@
+/* pages/refund/refund.wxss */
+
+/* pages/eventManager/dealRefund.wxss */
+
+page {
+  background-color: #f7f7f7;
+}
+
+.nolist {
+  width: 100%;
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+  font-size: 15px;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  position: fixed;
+}
+
+.line {
+  width: 100%;
+  height: 10px;
+  background-color: #f7f7f7;
+}
+
+.refund-list {
+  height: 90px;
+  width: 100%;
+  background-color: #fff;
+}
+
+.refund {
+  height: 85px;
+  float: left;
+}
+
+.refund-img {
+  float: left;
+  margin-right: 10px;
+  width: 50px;
+  height: 85px;
+  line-height: 85px;
+  text-align: right;
+}
+
+.refund-money {
+  float: left;
+  height: 85px;
+  line-height: 85px;
+  text-align: right;
+  color: rgba(255, 164, 5, 1);
+}
+
+.title {
+  margin-top: 11px;
+  height: 24px;
+  line-height: 24px;
+  color: rgba(0, 0, 0, 1);
+  font-size: 17px;
+  text-align: left;
+  font-family: PingFangSC-regular;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.result, .time {
+  height: 18px;
+  line-height: 18px;
+  color: rgba(153, 153, 153, 1);
+  font-size: 12px;
+  text-align: left;
+  font-family: PingFangSC-regular;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.result {
+  margin-top: 4px;
+}
+
+.time {
+  margin-top: 3px;
+}
+
+.line {
+  margin-top: 7px;
+  width: 100%;
+  height: 1px;
+  background: rgba(237, 237, 237, 1);
+}
+
+.buttom {
+  width: 100%;
+  height: 31px;
+  margin-top: 13px;
+}
+
+.yes {
+  width: 80px;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 0px;
+  background-color: rgba(255, 164, 5, 1);
+  color: rgba(255, 255, 255, 1);
+  font-size: 15px;
+  text-align: center;
+  font-family: PingFang SC;
+  float: right;
+}
+
+.no {
+  float: right;
+  width: 80px;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 0px;
+  background-color: rgba(153, 153, 153, 1);
+  color: rgba(255, 255, 255, 1);
+  font-size: 15px;
+  text-align: center;
+  font-family: PingFang SC;
+  margin-left: 10px;
+}
+
+.refund-bottom {
+  position: fixed;
+  bottom: 0px;
+  height: 60px;
+  width: 100%;
+  background-color: #fff;
+}
+
+.refund-bottom-left {
+  line-height: 60px;
+  width: 78%;
+  font-size: 16px;
+  float: left;
+  height: 60px;
+}
+
+.bottom-left-left {
+  height: 60px;
+  width: 30%;
+  float: left;
+}
+
+.bottom-left-right {
+  line-height: 60px;
+  width: 70%;
+  font-size: 16px;
+  float: left;
+  text-align: right;
+}
+
+.refund-bottom-right {
+  line-height: 60px;
+  width: 22%;
+  font-size: 16px;
+  float: left;
+  text-align: center;
+  background-color: rgba(255, 164, 5, 1);
+  color: rgba(255, 255, 255, 1);
+}
+
+.icon-xuanzhong1 {
+  font-size: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.bottom-left-right text {
+  padding-right: 10px;
+}
+
+.selectIcon {
+  color: rgba(255, 164, 5, 1);
+}
+
+.noSelectIcon {
+  color: rgba(153, 153, 153, 1);
+}
+
+.all-select {
+  position: fixed;
+  bottom: -1px;
+}
