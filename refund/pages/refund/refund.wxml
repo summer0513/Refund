@@ -1,0 +1,31 @@
+<view class="container">
+  <block wx:if="{{refundList.length!=0}}">
+    <view class="refund-list" wx:for="{{refundList}}" wx:key="">
+      <view class="line"></view>
+      <view class="refund-img">
+      <text class="iconfont icon-xuanzhong1 {{item.isSelect? 'selectIcon':'noSelectIcon'}}"  data-index="{{index}}" bindtap='selectOne'></text>
+      </view>
+      <view class="refund" style="width:{{contentWid *0.6}}px">
+        <view class="title">{{item.Show_Name}}</view>
+        <view class="result">{{item.RefuseMsg}}</view>
+        <view class="time">{{item.DhanderTime}}</view>
+      </view>
+      <view class="refund-money" style="width:{{contentWid *0.4}}px">¥{{item.refund_fee}}</view>
+    </view>
+    <view class="refund-bottom">
+      <view class="refund-bottom-left">
+         <view class="bottom-left-left">
+          <text class="iconfont icon-xuanzhong1 {{selectAll==0 ? 'noSelectIcon':'selectIcon'}}"  bindtap='selectAll'></text>
+          <text class="all-select">全选</text>
+          </view>
+         <view class="bottom-left-right">
+          <text>{{refundNum}}个退款 共{{refunfMoney}}元</text>
+         </view>
+      </view>
+      <view class="refund-bottom-right" bindtap='agree'>同意退款</view>
+    </view>
+  </block>
+  <block wx:else>
+    <view class="nolist">暂无待处理的退款信息，稍后再查看。</view>
+  </block>
+</view>

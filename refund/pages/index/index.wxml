@@ -1,0 +1,4 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="refundMoney" bindtap='toRefundPage'>退款</view>
+</view>
